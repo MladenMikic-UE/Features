@@ -7,23 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F62FD8D82A10C42F00265060 /* FeaturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD8D72A10C42F00265060 /* FeaturesApp.swift */; };
-		F62FD8DA2A10C42F00265060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD8D92A10C42F00265060 /* ContentView.swift */; };
-		F62FD8DC2A10C42F00265060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD8DB2A10C42F00265060 /* Assets.xcassets */; };
-		F62FD8E02A10C42F00265060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD8DF2A10C42F00265060 /* Preview Assets.xcassets */; };
+		F62FD9332A10CB3E00265060 /* Settings_BundleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9322A10CB3E00265060 /* Settings_BundleApp.swift */; };
+		F62FD9352A10CB3E00265060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9342A10CB3E00265060 /* ContentView.swift */; };
+		F62FD9372A10CB3F00265060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD9362A10CB3F00265060 /* Assets.xcassets */; };
+		F62FD93A2A10CB3F00265060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD9392A10CB3F00265060 /* Preview Assets.xcassets */; };
+		F62FD9452A10CBDB00265060 /* Open_SettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9442A10CBDB00265060 /* Open_SettingsApp.swift */; };
+		F62FD9472A10CBDB00265060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9462A10CBDB00265060 /* ContentView.swift */; };
+		F62FD9492A10CBDC00265060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD9482A10CBDC00265060 /* Assets.xcassets */; };
+		F62FD94C2A10CBDC00265060 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62FD94B2A10CBDC00265060 /* Preview Assets.xcassets */; };
+		F62FD9542A10CC9300265060 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9502A10CBF300265060 /* SettingsButton.swift */; };
+		F62FD9552A10CCC900265060 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62FD9502A10CBF300265060 /* SettingsButton.swift */; };
+		F62FD9572A10CCE900265060 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F62FD9562A10CCE900265060 /* Settings.bundle */; };
+		F62FD9592A10CFA000265060 /* Open_Settings.app in Resources */ = {isa = PBXBuildFile; fileRef = F62FD9422A10CBDB00265060 /* Open_Settings.app */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F62FD95A2A10CFA000265060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62FD8CC2A10C42F00265060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62FD9412A10CBDB00265060;
+			remoteInfo = Open_Settings;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		F62FD8D42A10C42F00265060 /* Features.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Features.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F62FD8D72A10C42F00265060 /* FeaturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesApp.swift; sourceTree = "<group>"; };
-		F62FD8D92A10C42F00265060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F62FD8DB2A10C42F00265060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F62FD8DD2A10C42F00265060 /* Features.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Features.entitlements; sourceTree = "<group>"; };
-		F62FD8DF2A10C42F00265060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F62FD9302A10CB3E00265060 /* Settings_Bundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings_Bundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62FD9322A10CB3E00265060 /* Settings_BundleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_BundleApp.swift; sourceTree = "<group>"; };
+		F62FD9342A10CB3E00265060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F62FD9362A10CB3F00265060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62FD9392A10CB3F00265060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F62FD9422A10CBDB00265060 /* Open_Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Open_Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62FD9442A10CBDB00265060 /* Open_SettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_SettingsApp.swift; sourceTree = "<group>"; };
+		F62FD9462A10CBDB00265060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F62FD9482A10CBDC00265060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F62FD94B2A10CBDC00265060 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F62FD9502A10CBF300265060 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		F62FD9562A10CCE900265060 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F62FD8D12A10C42F00265060 /* Frameworks */ = {
+		F62FD92D2A10CB3E00265060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62FD93F2A10CBDB00265060 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,57 +67,105 @@
 		F62FD8CB2A10C42F00265060 = {
 			isa = PBXGroup;
 			children = (
-				F62FD8D62A10C42F00265060 /* Features */,
+				F62FD9312A10CB3E00265060 /* Settings_Bundle */,
+				F62FD9432A10CBDB00265060 /* Open_Settings */,
 				F62FD8D52A10C42F00265060 /* Products */,
+				F62FD9582A10CFA000265060 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		F62FD8D52A10C42F00265060 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F62FD8D42A10C42F00265060 /* Features.app */,
+				F62FD9302A10CB3E00265060 /* Settings_Bundle.app */,
+				F62FD9422A10CBDB00265060 /* Open_Settings.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F62FD8D62A10C42F00265060 /* Features */ = {
+		F62FD9312A10CB3E00265060 /* Settings_Bundle */ = {
 			isa = PBXGroup;
 			children = (
-				F62FD8D72A10C42F00265060 /* FeaturesApp.swift */,
-				F62FD8D92A10C42F00265060 /* ContentView.swift */,
-				F62FD8DB2A10C42F00265060 /* Assets.xcassets */,
-				F62FD8DD2A10C42F00265060 /* Features.entitlements */,
-				F62FD8DE2A10C42F00265060 /* Preview Content */,
+				F62FD9562A10CCE900265060 /* Settings.bundle */,
+				F62FD9322A10CB3E00265060 /* Settings_BundleApp.swift */,
+				F62FD9342A10CB3E00265060 /* ContentView.swift */,
+				F62FD9362A10CB3F00265060 /* Assets.xcassets */,
+				F62FD9382A10CB3F00265060 /* Preview Content */,
 			);
-			path = Features;
+			path = Settings_Bundle;
 			sourceTree = "<group>";
 		};
-		F62FD8DE2A10C42F00265060 /* Preview Content */ = {
+		F62FD9382A10CB3F00265060 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F62FD8DF2A10C42F00265060 /* Preview Assets.xcassets */,
+				F62FD9392A10CB3F00265060 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F62FD9432A10CBDB00265060 /* Open_Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F62FD9442A10CBDB00265060 /* Open_SettingsApp.swift */,
+				F62FD9462A10CBDB00265060 /* ContentView.swift */,
+				F62FD9502A10CBF300265060 /* SettingsButton.swift */,
+				F62FD9482A10CBDC00265060 /* Assets.xcassets */,
+				F62FD94A2A10CBDC00265060 /* Preview Content */,
+			);
+			path = Open_Settings;
+			sourceTree = "<group>";
+		};
+		F62FD94A2A10CBDC00265060 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F62FD94B2A10CBDC00265060 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F62FD9582A10CFA000265060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F62FD8D32A10C42F00265060 /* Features */ = {
+		F62FD92F2A10CB3E00265060 /* Settings_Bundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F62FD8E32A10C42F00265060 /* Build configuration list for PBXNativeTarget "Features" */;
+			buildConfigurationList = F62FD93B2A10CB3F00265060 /* Build configuration list for PBXNativeTarget "Settings_Bundle" */;
 			buildPhases = (
-				F62FD8D02A10C42F00265060 /* Sources */,
-				F62FD8D12A10C42F00265060 /* Frameworks */,
-				F62FD8D22A10C42F00265060 /* Resources */,
+				F62FD92C2A10CB3E00265060 /* Sources */,
+				F62FD92D2A10CB3E00265060 /* Frameworks */,
+				F62FD92E2A10CB3E00265060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62FD95B2A10CFA000265060 /* PBXTargetDependency */,
+			);
+			name = Settings_Bundle;
+			productName = Settings_Bundle;
+			productReference = F62FD9302A10CB3E00265060 /* Settings_Bundle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F62FD9412A10CBDB00265060 /* Open_Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62FD94D2A10CBDC00265060 /* Build configuration list for PBXNativeTarget "Open_Settings" */;
+			buildPhases = (
+				F62FD93E2A10CBDB00265060 /* Sources */,
+				F62FD93F2A10CBDB00265060 /* Frameworks */,
+				F62FD9402A10CBDB00265060 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Features;
-			productName = Features;
-			productReference = F62FD8D42A10C42F00265060 /* Features.app */;
+			name = Open_Settings;
+			productName = Open_Settings;
+			productReference = F62FD9422A10CBDB00265060 /* Open_Settings.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +178,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					F62FD8D32A10C42F00265060 = {
+					F62FD92F2A10CB3E00265060 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F62FD9412A10CBDB00265060 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -117,34 +199,65 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F62FD8D32A10C42F00265060 /* Features */,
+				F62FD92F2A10CB3E00265060 /* Settings_Bundle */,
+				F62FD9412A10CBDB00265060 /* Open_Settings */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F62FD8D22A10C42F00265060 /* Resources */ = {
+		F62FD92E2A10CB3E00265060 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62FD8E02A10C42F00265060 /* Preview Assets.xcassets in Resources */,
-				F62FD8DC2A10C42F00265060 /* Assets.xcassets in Resources */,
+				F62FD93A2A10CB3F00265060 /* Preview Assets.xcassets in Resources */,
+				F62FD9572A10CCE900265060 /* Settings.bundle in Resources */,
+				F62FD9592A10CFA000265060 /* Open_Settings.app in Resources */,
+				F62FD9372A10CB3F00265060 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62FD9402A10CBDB00265060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62FD94C2A10CBDC00265060 /* Preview Assets.xcassets in Resources */,
+				F62FD9492A10CBDC00265060 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F62FD8D02A10C42F00265060 /* Sources */ = {
+		F62FD92C2A10CB3E00265060 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62FD8DA2A10C42F00265060 /* ContentView.swift in Sources */,
-				F62FD8D82A10C42F00265060 /* FeaturesApp.swift in Sources */,
+				F62FD9352A10CB3E00265060 /* ContentView.swift in Sources */,
+				F62FD9552A10CCC900265060 /* SettingsButton.swift in Sources */,
+				F62FD9332A10CB3E00265060 /* Settings_BundleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62FD93E2A10CBDB00265060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62FD9472A10CBDB00265060 /* ContentView.swift in Sources */,
+				F62FD9542A10CC9300265060 /* SettingsButton.swift in Sources */,
+				F62FD9452A10CBDB00265060 /* Open_SettingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F62FD95B2A10CFA000265060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62FD9412A10CBDB00265060 /* Open_Settings */;
+			targetProxy = F62FD95A2A10CFA000265060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F62FD8E12A10C42F00265060 /* Debug */ = {
@@ -256,79 +369,129 @@
 			};
 			name = Release;
 		};
-		F62FD8E42A10C42F00265060 /* Debug */ = {
+		F62FD93C2A10CB3F00265060 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Features/Features.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Features/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Settings_Bundle/Preview Content\"";
 				DEVELOPMENT_TEAM = 4574F346W6;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unseenexcellence.Features;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unseenexcellence.Settings-Bundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F62FD8E52A10C42F00265060 /* Release */ = {
+		F62FD93D2A10CB3F00265060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Features/Features.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Features/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Settings_Bundle/Preview Content\"";
 				DEVELOPMENT_TEAM = 4574F346W6;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.unseenexcellence.Features;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unseenexcellence.Settings-Bundle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62FD94E2A10CBDC00265060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Open_Settings/Preview Content\"";
+				DEVELOPMENT_TEAM = 4574F346W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unseenexcellence.Open-Settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F62FD94F2A10CBDC00265060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Open_Settings/Preview Content\"";
+				DEVELOPMENT_TEAM = 4574F346W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unseenexcellence.Open-Settings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -344,11 +507,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F62FD8E32A10C42F00265060 /* Build configuration list for PBXNativeTarget "Features" */ = {
+		F62FD93B2A10CB3F00265060 /* Build configuration list for PBXNativeTarget "Settings_Bundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F62FD8E42A10C42F00265060 /* Debug */,
-				F62FD8E52A10C42F00265060 /* Release */,
+				F62FD93C2A10CB3F00265060 /* Debug */,
+				F62FD93D2A10CB3F00265060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62FD94D2A10CBDC00265060 /* Build configuration list for PBXNativeTarget "Open_Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62FD94E2A10CBDC00265060 /* Debug */,
+				F62FD94F2A10CBDC00265060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
